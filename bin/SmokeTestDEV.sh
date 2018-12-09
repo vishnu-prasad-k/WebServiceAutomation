@@ -1,0 +1,1 @@
+mvn clean verify -DserviceEnvironment=DEV -DdatabaseEnvironment=WMSIT -Dcucumber.options="--tags @StatusCheck --tags ~@UATonly --tags ~@dontRUN"

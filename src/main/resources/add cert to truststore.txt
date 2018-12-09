@@ -1,0 +1,13 @@
+Open command window in the folder where the certificates are stored. Enter the below commands.
+
+1. To get the list of all the certificates in the trust store
+    keytool -list -keystore gatlingTrustStore.jks
+    Enter keystore password:
+
+2. To import a new SPID certificate to the trust store
+    keytool -importkeystore -destkeystore gatlingTrustStore.jks -srckeystore spid_S110670.p12 -srcstroretype pkcs12
+    Enter destination keystore password:
+    Enter source keystore password:
+
+Also change the spid name accordingly
+

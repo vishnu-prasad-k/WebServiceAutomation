@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<databases>
+    <database name = "WMSIT" hostname = "jdbc:oracle:thin:@PSGLOD2025-SCAN.ap.hedani.net:1522/USG17600.WORLD" dbusername = "WM_RO" dbpassword = "wm_ro" />
+    <database name = "WMUAT" hostname = "jdbc:oracle:thin:@PSGLOD2025-SCAN.ap.hedani.net:1522/USG16700.WORLD" dbusername = "WM_RO" dbpassword = "wm_ro" />
+</databases>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hosts>
+
+    <host name = "RMEDEV" value = "https://sgl20048818.ap.hedani.net:29089" trustStore = "certs/gatlingTrustStore.jks" trustStorePassword = "Beast19437" keyStore = "certs/S112564_test.p12" keyStorePassword = "Cs12345678"/>
+    <host name = "RMESIT" value = "https://sgl20048819.ap.hedani.net:29089" trustStore = "certs/gatlingTrustStore.jks" trustStorePassword = "Beast19437" keyStore = "certs/S112564_test.p12" keyStorePassword = "Cs12345678"/>
+
+</hosts>
